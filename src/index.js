@@ -74,8 +74,8 @@ function displayDateTime(date) {
   form.addEventListener("submit", searchCity);
   
   // Current location button clicked
-  let location = document.querySelector("#current-location");
-  location.addEventListener("click", currentLocation);
+  let locationBtn = document.querySelector("#current-location");
+  locationBtn.addEventListener("click", currentLocation);
   
   // Bonus Feature
   
